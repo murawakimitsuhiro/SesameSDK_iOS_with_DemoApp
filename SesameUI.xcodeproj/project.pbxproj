@@ -1070,7 +1070,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1230;
-				LastUpgradeCheck = 1150;
+				LastUpgradeCheck = 1250;
 				ORGANIZATIONNAME = CandyHouse;
 				TargetAttributes = {
 					B179690622F7CE9300E91996 = {
@@ -1576,6 +1576,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -1641,6 +1642,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -1682,19 +1684,19 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 8;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = 59M5HB7F95;
+				DEVELOPMENT_TEAM = 58347496P5;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/sdk",
 				);
 				INFOPLIST_FILE = SesameUI/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 2.2.17;
-				PRODUCT_BUNDLE_IDENTIFIER = co.candyhouse.sesame2;
+				PRODUCT_BUNDLE_IDENTIFIER = p.mrwk.sesame2;
 				PRODUCT_NAME = Sesame;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
@@ -1712,19 +1714,19 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 8;
-				DEVELOPMENT_TEAM = 59M5HB7F95;
+				DEVELOPMENT_TEAM = 58347496P5;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/sdk",
 				);
 				INFOPLIST_FILE = SesameUI/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 2.2.17;
-				PRODUCT_BUNDLE_IDENTIFIER = co.candyhouse.sesame2;
+				PRODUCT_BUNDLE_IDENTIFIER = p.mrwk.sesame2;
 				PRODUCT_NAME = Sesame;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
@@ -1741,7 +1743,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 8;
-				DEVELOPMENT_TEAM = 59M5HB7F95;
+				DEVELOPMENT_TEAM = 58347496P5;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/sdk",
@@ -1753,7 +1755,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 2.2.17;
-				PRODUCT_BUNDLE_IDENTIFIER = co.candyhouse.sesame2.watchkitapp.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = p.mrwk.sesame2.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = watchos;
@@ -1772,7 +1774,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 8;
-				DEVELOPMENT_TEAM = 59M5HB7F95;
+				DEVELOPMENT_TEAM = 58347496P5;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/sdk",
@@ -1784,7 +1786,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 2.2.17;
-				PRODUCT_BUNDLE_IDENTIFIER = co.candyhouse.sesame2.watchkitapp.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = p.mrwk.sesame2.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = watchos;
@@ -1805,7 +1807,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 8;
-				DEVELOPMENT_TEAM = 59M5HB7F95;
+				DEVELOPMENT_TEAM = 58347496P5;
 				IBSC_MODULE = SesameWatchKit_Extension;
 				INFOPLIST_FILE = SesameWatchKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1814,7 +1816,7 @@
 					"@loader_path/../Frameworks",
 				);
 				MARKETING_VERSION = 2.2.17;
-				PRODUCT_BUNDLE_IDENTIFIER = co.candyhouse.sesame2.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = p.mrwk.sesame2.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = watchos;
@@ -1835,7 +1837,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 8;
-				DEVELOPMENT_TEAM = 59M5HB7F95;
+				DEVELOPMENT_TEAM = 58347496P5;
 				IBSC_MODULE = SesameWatchKit_Extension;
 				INFOPLIST_FILE = SesameWatchKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1844,7 +1846,7 @@
 					"@loader_path/../Frameworks",
 				);
 				MARKETING_VERSION = 2.2.17;
-				PRODUCT_BUNDLE_IDENTIFIER = co.candyhouse.sesame2.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = p.mrwk.sesame2.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = watchos;
