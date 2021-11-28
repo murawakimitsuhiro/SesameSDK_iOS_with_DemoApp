@@ -1,4 +1,4 @@
-"CFBundleDisplayName" = "Sesame";
+"CFBundleDisplayName" = "SesameDev";
 "NSCameraUsageDescription" = "To scan QR Code";
 "NSPhotoLibraryUsageDescription" = "To scan QR Cdoe from your album";
 "NSBluetoothPeripheralUsageDescription" = "Sesame app would like to access nearby bluetooth Sesame devices even when you're not using the app.";

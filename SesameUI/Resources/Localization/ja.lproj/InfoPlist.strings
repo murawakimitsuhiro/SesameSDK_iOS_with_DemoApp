@@ -1,4 +1,4 @@
-"CFBundleDisplayName" = "セサミ";
+"CFBundleDisplayName" = "セサミDev";
 "NSCameraUsageDescription" = "QRコードをスキャンする";
 "NSPhotoLibraryUsageDescription" = "QRコードをアルバムから読み取る";
 "NSBluetoothPeripheralUsageDescription" = "セサミアプリを使用していない時でもセサミアプリはセサミデバイスのBluthtooh情報にアクセスできます。";
