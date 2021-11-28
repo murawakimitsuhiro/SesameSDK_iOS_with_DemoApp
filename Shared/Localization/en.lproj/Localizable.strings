@@ -166,7 +166,10 @@
 
 "co.candyhouse.sesame2.selectSSID" = "Select your WiFi network";
 "co.candyhouse.sesame2.enterSSIDPassword" = "Please enter the WiFi password";
+"co.candyhouse.sesame2.enterSSID" = "Please enter the WiFi SSID";
+"co.candyhouse.sesame2.enterSSIDAndPassword" = "Please enter the WiFi SSID and password";
 "co.candyhouse.sesame2.bluetoothPoweredOff" = "Bluetooth is off";
+"co.candyhouse.sesame2.useUndisclosedSSID" = "Connect undisclosed Wifi";
 
 "co.candyhouse.sesame2.friendsKeys" = "The following Sesame keys are shared with this contact:";
 "co.candyhouse.sesame2.bindSesame2ToWifiModule2" = "Add Sesame that is to be connected by this WiFi Module:";

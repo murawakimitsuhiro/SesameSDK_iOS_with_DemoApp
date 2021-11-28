@@ -164,7 +164,10 @@
 "co.candyhouse.sesame2.NoBleDevices" = "Bluetooth信号が見つかりません";
 
 "co.candyhouse.sesame2.selectSSID" = "ご使用のWiFi環境をお選びください";
+"co.candyhouse.sesame2.useUndisclosedSSID" = "非公開のWiFiへ接続する";
 "co.candyhouse.sesame2.enterSSIDPassword" = "WiFi環境のパスワードをご入力ください";
+"co.candyhouse.sesame2.enterSSID" = "WiFi環境のSSIDをご入力ください";
+"co.candyhouse.sesame2.enterSSIDAndPassword" = "SSID及びパスワードをご入力ください";
 "co.candyhouse.sesame2.bluetoothPoweredOff" = "Bluetoothがオフ";
 
 "co.candyhouse.sesame2.friendsKeys" = "この連絡先にシェアされているセサミの鍵：";

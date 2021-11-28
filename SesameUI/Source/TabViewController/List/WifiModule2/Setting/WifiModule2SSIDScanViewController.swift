@@ -11,6 +11,7 @@ import SesameSDK
 
 @objc protocol WifiModule2SSIDScanViewControllerDelegate: AnyObject {
     func onSSIDSelected(_ ssid: String)
+    func onSelectedUndisclosedSSID()
     @objc func onScanRequested()
 }
 
@@ -80,11 +81,17 @@ class WifiModule2SSIDScanViewController: CHBaseTableViewController {
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        ssids.count
+        ssids.count + 1
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! WifiModule2SSIDScanCell
+        
+        guard indexPath.row < ssids.count else {
+            cell.ssidLabel.text = "co.candyhouse.sesame2.useUndisclosedSSID".localized
+            return cell
+        }
+        
         let wifiSignal: String
         let rssiStrength = ssids[indexPath.row].rssi + 100
         if rssiStrength >= 50 {
@@ -101,6 +108,10 @@ class WifiModule2SSIDScanViewController: CHBaseTableViewController {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
+        guard indexPath.row < ssids.count else {
+            delegate?.onSelectedUndisclosedSSID()
+            return
+        }
         delegate?.onSSIDSelected(ssids[indexPath.row].name)
     }
     

@@ -12,6 +12,7 @@ class WifiModule2SSIDScanCell: UITableViewCell {
 
     @IBOutlet weak var iconView: UIImageView!
     @IBOutlet weak var ssidLabel: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -22,5 +23,4 @@ class WifiModule2SSIDScanCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
-    
 }

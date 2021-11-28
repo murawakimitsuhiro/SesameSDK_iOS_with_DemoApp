@@ -492,6 +492,36 @@ extension WifiModule2SettingViewController: WifiModule2SSIDScanViewControllerDel
         }
     }
     
+    func onSelectedUndisclosedSSID() {
+//        ViewHelper.showLoadingInView(view: self.ssidScanViewController?.view)
+//        wifiModule2.setWifiSSID(ssid) { setResult in
+//            executeOnMainThread {
+//                ViewHelper.hideLoadingView(view: self.ssidScanViewController?.view)
+//                if case let .failure(error) = setResult {
+//                    self.ssidScanViewController?.view.makeToast(error.errorDescription())
+//                } else {
+//                    self.wifiSSIDView.value = ssid
+                    self.ssidScanViewController?
+                        .navigationController?
+                        .presentCHAlertWith("",
+                                            title: "co.candyhouse.sesame2.enterSSIDAndPassword".localized,
+                                            hint: "co.candyhouse.sesame2.enterSSID".localized,
+                                            secondOldValue: "", secondHint: "co.candyhouse.sesame2.enterSSIDPassword".localized,
+                                            callback: { newValue, secondNewValue in
+                            print("connect try \(newValue) \(secondNewValue)")
+                            // wifiModule2.setWifiSSID(ssid)
+                        })
+//                        .presentCHAlertWithPlaceholder(title: "test ssid undisclosed",
+//                                                       placeholder: "",
+//                                                       hint: "co.candyhouse.sesame2.enterSSIDPassword".localized) { password in
+//                            self.setWifiPasswordAndConnect(password)
+//                        }
+//                }
+//            }
+//        }
+    }
+    
+    
     private func setWifiPasswordAndConnect(_ password: String) {
         executeOnMainThread {
             ViewHelper.showLoadingInView(view: self.ssidScanViewController?.view)
