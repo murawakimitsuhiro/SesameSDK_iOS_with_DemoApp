@@ -14,7 +14,7 @@ PODS:
   - ZIPFoundation (0.9.11)
 
 DEPENDENCIES:
-  - iOSDFULibrary
+  - iOSDFULibrary (= 4.11.1)
   - "SesameSDK (from `git@github.com:CANDY-HOUSE/SesameSDK_iOS.git`, tag `2.0.3.1`)"
   - "SesameWatchKitSDK (from `git@github.com:CANDY-HOUSE/SesameSDK_iOS.git`, tag `2.0.3.1`)"
 
@@ -51,6 +51,6 @@ SPEC CHECKSUMS:
   SesameWatchKitSDK: 25afe0ad4b5e9a3334698cb077f4327c6630f318
   ZIPFoundation: b1f0de4eed33e74a676f76e12559ab6b75990197
 
-PODFILE CHECKSUM: aebfa1f35d73e4b7c54f02d25f68c92d5e1542ef
+PODFILE CHECKSUM: 9e7bc622c53e234825ca9cce37273f36c297a9f0
 
 COCOAPODS: 1.11.2
