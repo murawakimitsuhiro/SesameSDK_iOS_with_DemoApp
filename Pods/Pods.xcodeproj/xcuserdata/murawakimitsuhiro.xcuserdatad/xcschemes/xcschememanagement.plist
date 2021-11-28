@@ -4,51 +4,53 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>AWSAPIGateway.xcscheme_^#shared#^_</key>
+		<key>AWSAPIGateway.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>3</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
-		<key>AWSCore.xcscheme_^#shared#^_</key>
+		<key>AWSCore.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>8</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
-		<key>AWSIoT.xcscheme_^#shared#^_</key>
+		<key>AWSIoT.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>7</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
-		<key>Pods-SesameUI.xcscheme_^#shared#^_</key>
+		<key>Pods-SesameUI.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>9</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
-		<key>Pods-SesameWatchKit Extension.xcscheme_^#shared#^_</key>
+		<key>Pods-SesameWatchKit Extension.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>11</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
-		<key>SesameSDK.xcscheme_^#shared#^_</key>
+		<key>SesameSDK.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>10</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
-		<key>SesameWatchKitSDK.xcscheme_^#shared#^_</key>
+		<key>SesameWatchKitSDK.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>4</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
-		<key>ZIPFoundation.xcscheme_^#shared#^_</key>
+		<key>ZIPFoundation.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>5</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
-		<key>iOSDFULibrary.xcscheme_^#shared#^_</key>
+		<key>iOSDFULibrary.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>6</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
 	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict/>
 </dict>
 </plist>
